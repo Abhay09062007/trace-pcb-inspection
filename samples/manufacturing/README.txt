@@ -1,0 +1,1 @@
+Generated educational manufacturing test art. ZIPs include F_Cu, F_Mask, F_Silkscreen, Edge_Cuts, Excellon drill, and a per-board README. Faulted boards contain an intentional open trace or copper short; do not fabricate as functional boards. Review in a Gerber viewer and run manufacturer DFM before ordering.
