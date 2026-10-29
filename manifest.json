@@ -1,0 +1,10 @@
+{
+  "name": "trace-pcb-inspection",
+  "short_name": "Trace",
+  "description": "PCB quality inspection dashboard demo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08090b",
+  "theme_color": "#08090b",
+  "icons": [{ "src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
