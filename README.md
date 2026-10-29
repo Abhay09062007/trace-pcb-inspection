@@ -32,6 +32,7 @@ These are genuine RS-274X Gerber-format and Excellon drill test artworks generat
 - `app.js` — image comparison, overlays, and report export
 - `assets/` — interface illustrations
 - `samples/` — comparison previews and generated Gerber packages
-- `manifest.json`, `vercel.json` — site metadata and static hosting configuration
+- `manifest.json` — app metadata
+- GitHub Pages serves the site directly from the `main` branch root
 
 Open `index.html` or serve this folder using any static web server. No build step is required.
