@@ -1,7 +1,7 @@
 {
   "name": "trace-pcb-inspection",
   "short_name": "Trace",
-  "description": "PCB quality inspection dashboard demo",
+  "description": "PCB manufacturing Gerber geometry comparison demo",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#08090b",
