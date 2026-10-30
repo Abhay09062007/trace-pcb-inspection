@@ -398,7 +398,7 @@ function renderResults() {
   document.getElementById('scoreValue').innerHTML = `${Math.max(0, 100 - defects.length * 12)} <em>/ 100</em>`;
   document.getElementById('confidenceValue').textContent = defects.length ? 'Review' : 'Matched';
   document.getElementById('severity').textContent = defects.length ? 'DESIGN REVIEW' : 'GEOMETRY MATCH';
-  document.getElementById('timeValue').innerHTML = `${result.elapsed} <small>s</small>`;
+  document.getElementById('timeValue').textContent = `${result.elapsed} s · inspection`;
   document.getElementById('resultsList').replaceChildren();
   if (!defects.length) addResultRow('Copper geometry', 'No difference');
   defects.forEach((defect, i) => {
