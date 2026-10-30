@@ -438,7 +438,7 @@ document.getElementById('scanBtn').onclick = event => {
   event.currentTarget.classList.toggle('active');
 };
 function updateZoom() {
-  uploaded.style.transform = `scale(${zoom})`;
+  uploaded.style.transform = `translate(-50%,-50%) scale(${zoom})`;
   overlay.style.transform = `translate(-50%,-50%) scale(${zoom})`;
   pcb.style.transform = `scale(${zoom})`;
 }
